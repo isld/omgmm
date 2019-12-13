@@ -1,0 +1,18 @@
+{
+	"transport": {
+		"host": "",
+		"port": 465,
+		"auth": {
+			"user": "",
+			"pass": ""
+		},
+		"secure": true,
+		"pool": true,
+		"rateLimit": true,
+		"maxConnections": 3,
+		"maxMessages": 5,
+		"tls": {
+			"rejectUnauthorized": false
+		}
+	}
+}
